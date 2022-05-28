@@ -9,7 +9,6 @@ import { Link } from "react-router-dom";
 import mshop1 from "../assets/eshop1.png";
 import mshop2 from "../assets/eshop1.png";
 import mshop3 from "../assets/eshop1.png";
-import user from "../assets/user.webp";
 
 import "../styles/Doctors.css";
 

@@ -1,20 +1,9 @@
 import React from "react";
 
-import Button from "@mui/material/Button";
-import CssBaseline from "@mui/material/CssBaseline";
-import TextField from "@mui/material/TextField";
 import Link from "@mui/material/Link";
-import Grid from "@mui/material/Grid";
-import Container from "@mui/material/Container";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { useMediaQuery } from "@mui/material";
-import { withStyles } from "@mui/styles";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-
-import signup from "../assets/shopsign.jpg";
-// import shopsignin from "../assets/shopsignin.svg"
 
 import "../styles/DocSignIn.css";
 
@@ -38,7 +27,7 @@ const DocSignIn = () => {
 
             <div className="shopsignin_details">
 
-              <h1 className="shopsignin_header">Sign In</h1>
+              <h1 className="shopsignin_header">Sign In as Doctor</h1>
 
               <input type="email" name="" id="" placeholder="Enter your email" className="form-control shopsignin_input" />
               <input type="password" name="" id="" placeholder="Enter your password" className="form-control shopsignin_input" />
@@ -46,7 +35,7 @@ const DocSignIn = () => {
               <button className="btn btn-warning shopsignin_btn">Sign In</button>
 
               <p className="shopsignin_p">
-                Don't have an account? <Link href="/shop-sign-up">Sign Up</Link>
+                Don't have an account? <Link href="/docjoin">Sign Up</Link>
               </p>
 
 

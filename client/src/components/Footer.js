@@ -12,7 +12,7 @@ const Footer = () => {
                     <div className="footerbox">
                         <div className="boxes">
                             <div className="title">
-                                <h3>AnyHelper</h3>
+                                <h3>Clinics</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus lorem at diam mauris viverra in varius. Fusce nunc, turpis porta lacinia accumsan cursus.</p>
                             </div>
                         </div>

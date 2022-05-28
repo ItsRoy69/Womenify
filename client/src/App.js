@@ -6,10 +6,6 @@ import Home from "./pages/Home/Home";
 import Clinics from "./pages/Clinics";
 import Doctors from "./pages/Doctors";
 import Jobs from "./pages/Jobs";
-import Workers from "./pages/Workers";
-import Items from "./pages/Items";
-import SignUp from "./pages/SignUp";
-import SignIn from "./pages/SignIn";
 import DocJoin from "./pages/DocJoin";
 import DocSignIn from "./pages/DocSignIn";
 import PatientJoin from "./pages/PatientJoin";
@@ -25,10 +21,6 @@ function App() {
             <Route path="/clinics" exact element={<Clinics />} />
             <Route path="/doctors" exact element={<Doctors />} />
             <Route path="/jobs" exact element={<Jobs />}  />
-            <Route path="/workers" exact element={<Workers />} />
-            <Route path="/items" exact element={<Items />} />
-            <Route path="/signup" exact element={<SignUp />} />
-            <Route path="/signin" exact element={<SignIn />} />
             <Route path="/Docjoin" exact element={<DocJoin />} />
             <Route path="/docSignIn" exact element={<DocSignIn />} />
             <Route path="/patientjoin" exact element={<PatientJoin />} />

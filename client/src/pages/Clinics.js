@@ -13,13 +13,13 @@ import user from "../assets/user.webp";
 
 import "../styles/Clinics.css";
 
-export default function ElectricalShops() {
+export default function Clinics() {
   return (
     <>
       <Navbar />
       <div className="container eleccontainer">
         <div className="banner">
-          <h1>Electrical Shops</h1>
+          <h1>Clinics</h1>
         </div>
         <button type="button" className="button">
           Sort By Distance
@@ -31,9 +31,9 @@ export default function ElectricalShops() {
           style={{ marginLeft: "10px" }}
         >
           <option value="All">All</option>
-          <option value="Plumber">Plumber</option>
-          <option value="Electrician">Electrician</option>
-          <option value="Mechanic">Mechanic</option>
+          <option value="Clinics">Clinics</option>
+          <option value="Clinics">Clinics</option>
+          <option value="Clinics">Clinics</option>
         </select>
       </div>
 

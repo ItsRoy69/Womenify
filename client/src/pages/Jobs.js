@@ -56,7 +56,7 @@ export default function PlumberShops() {
               <p className="elec_ra">Cover 50km</p>
               <Link to="/items">
                 <button type="button" className="boxbutton">
-                  Items
+                 Link
                 </button>
               </Link>
             </div>
@@ -80,7 +80,7 @@ export default function PlumberShops() {
               <p className="elec_ra">Cover 50km</p>
               <Link to="/items">
                 <button type="button" className="boxbutton">
-                  Items
+                 Link
                 </button>
               </Link>
             </div>
@@ -104,7 +104,7 @@ export default function PlumberShops() {
               <p className="elec_ra">Cover 50km</p>
               <Link to="/items">
                 <button type="button" className="boxbutton">
-                  Items
+                 Link
                 </button>
               </Link>
             </div>
@@ -128,7 +128,7 @@ export default function PlumberShops() {
               <p className="elec_ra">Cover 50km</p>
               <Link to="/items">
                 <button type="button" className="boxbutton">
-                  Items
+                 Link
                 </button>
               </Link>
             </div>

@@ -4,9 +4,8 @@ import Link from "@mui/material/Link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import signup from "../assets/workersign.jpg";
 
-const WorkerSignIn = () => {
+const PatientSignIn = () => {
   return (
     <>
       <Navbar />
@@ -23,7 +22,7 @@ const WorkerSignIn = () => {
 
           <div className="col-lg-6 col-md-12 col-sm-12 shopsignin_detailscol">
             <div className="shopsignin_details">
-              <h1 className="shopsignin_header">Sign In as a worker</h1>
+              <h1 className="shopsignin_header">Sign In as a patient</h1>
 
               <input
                 type="email"
@@ -45,7 +44,7 @@ const WorkerSignIn = () => {
               </button>
 
               <p className="shopsignin_p">
-                Don't have an account? <Link href="/shop-sign-up">Sign Up</Link>
+                Don't have an account? <Link href="/PatientJoin">Sign Up</Link>
               </p>
             </div>
           </div>
@@ -55,4 +54,4 @@ const WorkerSignIn = () => {
   );
 };
 
-export default WorkerSignIn;
+export default PatientSignIn;

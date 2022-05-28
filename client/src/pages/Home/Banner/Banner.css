@@ -4,10 +4,9 @@
 }
 
 .carousel-item img{
-  width: 60vw;
-  height: 90vh;
-    
+  object-fit: contain;    
 }
+
 .carousel-caption {
   height: 200px;
   width: 594px;

@@ -7,7 +7,7 @@ import { FcNext, FcPrevious } from "react-icons/fc";
 
 import "./Banner.css";
 
-export default function Features() {
+export default function Banner() {
   return (
 
     <>
