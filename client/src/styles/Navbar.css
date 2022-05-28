@@ -1,0 +1,24 @@
+.navbar_brand_logo {
+  width: 100px;
+}
+
+.nav-link {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  color: #112B3C;
+  font-weight: 700;
+  margin-right: 30px;
+}
+
+.nav-link:hover {
+  color: #001D6E;
+  text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  color: rgb(255, 255, 255) !important;
+}
+
+.navbar{
+  background-color: #7FB5FF;
+}
