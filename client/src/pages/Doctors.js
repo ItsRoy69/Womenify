@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCity } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
-import mshop1 from "../assets/eshop1.jpg";
-import mshop2 from "../assets/eshop2.jpg";
-import mshop3 from "../assets/eshop3.jpg";
+import mshop1 from "../assets/eshop1.png";
+import mshop2 from "../assets/eshop1.png";
+import mshop3 from "../assets/eshop1.png";
 import user from "../assets/user.webp";
 
 import "../styles/Doctors.css";
@@ -54,9 +54,9 @@ export default function Doctors() {
               <p className="elec_ph">(+91) 903252-3499</p>
               <p className="elec_add">Mahestala, Batanagar</p>
               <p className="elec_ra">Cover 50km</p>
-              <Link to="/items">
+              <Link to="/message">
                 <button type="button" className="boxbutton">
-                  Items
+                  Message
                 </button>
               </Link>
             </div>
@@ -78,9 +78,9 @@ export default function Doctors() {
               <p className="elec_ph">(+91) 903252-3499</p>
               <p className="elec_add">Mahestala, Batanagar</p>
               <p className="elec_ra">Cover 50km</p>
-              <Link to="/items">
+              <Link to="/message">
                 <button type="button" className="boxbutton">
-                  Items
+                  Message
                 </button>
               </Link>
             </div>
@@ -102,9 +102,9 @@ export default function Doctors() {
               <p className="elec_ph">(+91) 903252-3499</p>
               <p className="elec_add">Mahestala, Batanagar</p>
               <p className="elec_ra">Cover 50km</p>
-              <Link to="/items">
+              <Link to="/message">
                 <button type="button" className="boxbutton">
-                  Items
+                  Message
                 </button>
               </Link>
             </div>
@@ -126,9 +126,9 @@ export default function Doctors() {
               <p className="elec_ph">(+91) 903252-3499</p>
               <p className="elec_add">Mahestala, Batanagar</p>
               <p className="elec_ra">Cover 50km</p>
-              <Link to="/items">
+              <Link to="/message">
                 <button type="button" className="boxbutton">
-                  Items
+                  Message
                 </button>
               </Link>
             </div>

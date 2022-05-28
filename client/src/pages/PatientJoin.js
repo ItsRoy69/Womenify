@@ -1,9 +1,8 @@
 import React from "react";
-import "../styles/WorkerJoin.css";
 import shp1 from "../assets/shp1.svg";
 import Navbar from "../components/Navbar";
 
-const WorkerJoin = () => {
+const PatientJoin = () => {
   return (
     <>
       <Navbar />
@@ -61,30 +60,6 @@ const WorkerJoin = () => {
                   aria-describedby="emailHelp"
                   placeholder="Password"
                 />
-
-                <input
-                  type="email"
-                  className="form-control form1_control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Latitude"
-                />
-
-                <input
-                  type="email"
-                  className="form-control form1_control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Longitude"
-                />
-
-
-                <a type="button" className="btn btn-warning" style={{ marginBottom: "2rem" }} href="https://gps-coordinates.org/">
-                   Get Location         
-                </a>
-
-
-
                 <input
                   type="email"
                   className="form-control form1_control"
@@ -118,17 +93,17 @@ const WorkerJoin = () => {
                   <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
                     <li>
                       <a class="dropdown-item" href="/">
-                        Plumber
+                        Diabetes
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="/">
-                        Electrician
+                        Diabetes
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="/">
-                        Mechanic
+                        Diabetes
                       </a>
                     </li>
                   </ul>
@@ -148,4 +123,4 @@ const WorkerJoin = () => {
   );
 };
 
-export default WorkerJoin;
+export default PatientJoin;

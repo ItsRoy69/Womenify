@@ -37,27 +37,7 @@ const ShopJoin = () => {
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Email"
-                />
-
-                <input
-                  type="email"
-                  className="form-control form1_control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Latitude"
-                />
-
-                <input
-                  type="email"
-                  className="form-control form1_control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Longitude"
-                />
-
-                <a type="button" className="btn btn-warning" style={{ marginBottom: "2rem" }} href="https://gps-coordinates.org/">
-                   Get Location         
-                </a>
+                />                
 
                 <input
                   type="email"
@@ -90,24 +70,16 @@ const ShopJoin = () => {
                   aria-describedby="emailHelp"
                   placeholder="Address"
                 />
-
+                
                 <input
                   type="email"
                   className="form-control form1_control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
-                  placeholder="Shop name"
+                  placeholder="Hospital name"
                 />
 
-                <input
-                  type="email"
-                  className="form-control form1_control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Shop name"
-                />
-
-<div class="nav-item dropdown">
+                <div class="nav-item dropdown">
                   <p
                     class="dropdown-toggle form1_control"
                     id="navbarDropdown"
@@ -122,61 +94,23 @@ const ShopJoin = () => {
                   <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
                     <li>
                       <a class="dropdown-item" href="/">
-                        Plumbing
+                        Diabetes
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="/">
-                        Electric
+                        Diabetes
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="/">
-                        Mechanic
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="/">
-                        Electric
+                        Diabetes
                       </a>
                     </li>
                   </ul>
                 </div>
-
-                <input
-                  type="email"
-                  className="form-control form1_control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Shop name"
-                />
-
-                <input
-                  type="email"
-                  className="form-control form1_control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Shop name"
-                />
-
-                <input
-                  type="email"
-                  className="form-control form1_control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Shop name"
-                />
-
-                <input
-                  type="email"
-                  className="form-control form1_control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Shop name"
-                />
-
                 <button type="submit" className="btn btn-warning">
-                  SignIn
+                  SignUp
                 </button>
               </form>
             </div>

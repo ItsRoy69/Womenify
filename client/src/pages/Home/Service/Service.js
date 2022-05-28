@@ -90,7 +90,7 @@ export default function Service({ customerDetails }) {
                     Join
                   </button>
                 </Link>
-                <Link to="/shopsignin">
+                <Link to="/docsignin">
                   <button
                     className=" btn service_btn btn-warning"
                     data-inline="true"
@@ -109,19 +109,16 @@ export default function Service({ customerDetails }) {
 
           <div className="card workcard">
             <div className=" workcard_body">
-              <img src={service5} width={30} alt="Shop Join" />
+              <img src={service6} width={30} alt="Workers Join" />
               <h3 className="  text-truncate workname">Join as Patient</h3>
               <span className="text justify-content  ">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               </span>
-              <br />
               <div className="d-block  ">
-                <Link to="/shopjoin">
-                  <button className="  btn service_btn btn-warning" data-inline="true">
-                    Join
-                  </button>
+                <Link to="PatientJoin">
+                  <button className=" btn service_btn btn-warning">Join</button>
                 </Link>
-                <Link to="/shopsignin">
+                <Link to="/patientsignin">
                   <button
                     className=" btn service_btn btn-warning"
                     data-inline="true"
@@ -132,7 +129,7 @@ export default function Service({ customerDetails }) {
                 </Link>
               </div>
             </div>
-          </div>         
+          </div>    
 
 
 

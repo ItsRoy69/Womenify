@@ -55,9 +55,9 @@ export default function ElectricalShops() {
               <p className="elec_ph">(+91) 903252-3499</p>
               <p className="elec_add">Mahestala, Batanagar</p>
               <p className="elec_ra">Cover 50km</p>
-              <Link to="/items">
+              <Link to="/message">
                 <button type="button" className="boxbutton">
-                  Items
+                  Message
                 </button>
               </Link>
             </div>
@@ -79,9 +79,9 @@ export default function ElectricalShops() {
               <p className="elec_ph">(+91) 903252-3499</p>
               <p className="elec_add">Mahestala, Batanagar</p>
               <p className="elec_ra">Cover 50km</p>
-              <Link to="/items">
+              <Link to="/message">
                 <button type="button" className="boxbutton">
-                  Items
+                  Message
                 </button>
               </Link>
             </div>
@@ -103,9 +103,9 @@ export default function ElectricalShops() {
               <p className="elec_ph">(+91) 903252-3499</p>
               <p className="elec_add">Mahestala, Batanagar</p>
               <p className="elec_ra">Cover 50km</p>
-              <Link to="/items">
+              <Link to="/message">
                 <button type="button" className="boxbutton">
-                  Items
+                  Message
                 </button>
               </Link>
             </div>
@@ -127,9 +127,9 @@ export default function ElectricalShops() {
               <p className="elec_ph">(+91) 903252-3499</p>
               <p className="elec_add">Mahestala, Batanagar</p>
               <p className="elec_ra">Cover 50km</p>
-              <Link to="/items">
+              <Link to="/message">
                 <button type="button" className="boxbutton">
-                  Items
+                  Message
                 </button>
               </Link>
             </div>

@@ -16,9 +16,9 @@ import Footer from "../components/Footer";
 import signup from "../assets/shopsign.jpg";
 // import shopsignin from "../assets/shopsignin.svg"
 
-import "../styles/ShopSignIn.css";
+import "../styles/DocSignIn.css";
 
-const ShopSignIn = () => {
+const DocSignIn = () => {
   return (
     <>
       <Navbar />
@@ -60,4 +60,4 @@ const ShopSignIn = () => {
   );
 };
 
-export default ShopSignIn;
+export default DocSignIn;

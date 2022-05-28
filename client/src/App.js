@@ -11,9 +11,9 @@ import Items from "./pages/Items";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 import DocJoin from "./pages/DocJoin";
-import ShopSignIn from "./pages/ShopSignIn";
-import WorkerJoin from "./pages/WorkerJoin";
-import WorkerSignIn from "./pages/WorkerSignIn";
+import DocSignIn from "./pages/DocSignIn";
+import PatientJoin from "./pages/PatientJoin";
+import PatientSignIn from "./pages/PatientSignIn";
 import Message from "./pages/Message";
 
 function App() {
@@ -30,9 +30,9 @@ function App() {
             <Route path="/signup" exact element={<SignUp />} />
             <Route path="/signin" exact element={<SignIn />} />
             <Route path="/Docjoin" exact element={<DocJoin />} />
-            <Route path="/shopsignin" exact element={<ShopSignIn />} />
-            <Route path="/workerjoin" exact element={<WorkerJoin />} />
-            <Route path="/workersignin" exact element={<WorkerSignIn />} />
+            <Route path="/docSignIn" exact element={<DocSignIn />} />
+            <Route path="/patientjoin" exact element={<PatientJoin />} />
+            <Route path="/patientsignin" exact element={<PatientSignIn />} />
             <Route path="/message" exact element={<Message />} />
         </Routes> 
       </Router>     

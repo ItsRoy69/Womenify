@@ -6,9 +6,9 @@ import Footer from "../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCity } from "@fortawesome/free-solid-svg-icons";
 
-import mshop1 from "../assets/eshop1.jpg";
-import mshop2 from "../assets/eshop2.jpg";
-import mshop3 from "../assets/eshop3.jpg";
+import mshop1 from "../assets/eshop1.png";
+import mshop2 from "../assets/eshop1.png";
+import mshop3 from "../assets/eshop1.png";
 import user from "../assets/user.webp";
 
 import "../styles/Workers.css";
